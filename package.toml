@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "yazi-rs/plugins:no-status", rev = "ec97f88" }, { use = "Reledia/glow", rev = "388e847" }, { use = "yazi-rs/plugins:max-preview", rev = "ec97f88" }, { use = "yazi-rs/plugins:hide-preview", rev = "ec97f88" }, { use = "yazi-rs/plugins:git", rev = "ec97f88" }, { use = "lpnh/fg", rev = "a7e1a82" }]
+
+[flavor]
+deps = []
