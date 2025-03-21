@@ -1,12 +1,12 @@
 [[manager.prepend_keymap]]
-on   = "v"
+on   = "V"
 run  = "plugin max-preview"
 desc = "Maximize or restore preview"
 
 
 [[manager.prepend_keymap]]
-on   = "V"
-run  = "plugin --sync hide-preview"
+on   = "v"
+run  = "plugin hide-preview"
 desc = "Hide or show preview"
 
 # A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
