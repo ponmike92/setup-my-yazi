@@ -22,9 +22,8 @@ marker_marked = { fg = "#d1d1d1", bg = "#d1d1d1" }
 # find_keyword = { fg = "white", underline = true }
 # find_position = { fg = "white", italic = true }
 
-# tab_active = { fg = "black", bg = "white" }
-# tab_inactive = { fg = "white" }
-# tab_width = 20
+tab_active = { fg = "#d1d1d1" }
+tab_inactive = { fg = "#282828" }
 
 count_selected = { fg = "#292929" }
 count_copied = { fg = "#2c3727" }
