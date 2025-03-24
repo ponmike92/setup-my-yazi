@@ -14,10 +14,10 @@ cwd = { fg = "#6A9FB5"}
 hovered = { fg = "white"}
 preview_hovered = { fg = "#525252"}
 
-# marker_selected = { fg = "white" }
-# marker_copied = { fg = "white" }
-# marker_cut = { fg = "white" }
-# marker_marked = { fg = "white" }
+marker_selected = { fg = "#d1d1d1", bg = "#d1d1d1" }
+marker_copied = { fg = "#90b181", bg = "#90b181" }
+marker_cut = { fg = "#e99bae", bg = "#e99bae" }
+marker_marked = { fg = "#d1d1d1", bg = "#d1d1d1" }
 
 # find_keyword = { fg = "white", underline = true }
 # find_position = { fg = "white", italic = true }
@@ -26,9 +26,9 @@ preview_hovered = { fg = "#525252"}
 # tab_inactive = { fg = "white" }
 # tab_width = 20
 
-# count_selected = { fg = "white" }
-# count_copied = { fg = "white" }
-# count_cut = { fg = "white" }
+count_selected = { fg = "#292929" }
+count_copied = { fg = "#2c3727" }
+count_cut = { fg = "#2f1c21" }
 
 border_style = { fg = "#222222" }
 border_symbol = "│"
