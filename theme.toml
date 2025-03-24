@@ -2,9 +2,85 @@
 # If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
 "$schema" = "https://yazi-rs.github.io/schemas/theme.json"
 
-[flavor]
-use = "foo"
 
+[filetype]
+rules = [
+    { name = "*/", fg = "#525252" },
+    { name = "*", fg = "#525252" }
+]
 
+[manager]
+cwd = { fg = "#6A9FB5"}
+hovered = { fg = "white"}
+preview_hovered = { fg = "#525252"}
+
+# marker_selected = { fg = "white" }
+# marker_copied = { fg = "white" }
+# marker_cut = { fg = "white" }
+# marker_marked = { fg = "white" }
+
+# find_keyword = { fg = "white", underline = true }
+# find_position = { fg = "white", italic = true }
+
+# tab_active = { fg = "black", bg = "white" }
+# tab_inactive = { fg = "white" }
+# tab_width = 20
+
+# count_selected = { fg = "white" }
+# count_copied = { fg = "white" }
+# count_cut = { fg = "white" }
+
+border_style = { fg = "#222222" }
+border_symbol = "│"
+
+# [mode]
+# normal_main = { fg = "white" }
+# normal_alt = { fg = "white", dim = true }
+
+# select_main = { fg = "white", bg = "darkgray" }
+# select_alt = { fg = "white", bg = "darkgray", dim = true }
+
+# unset_main = { fg = "white", bg = "gray" }
+# unset_alt = { fg = "white", bg = "gray", dim = true }
+
+# [status]
+# overall = { fg = "black", bg = "white" }
+# sep_left = { open = "", close = "]" }
+# sep_right = { open = "[", close = "" }
+
+# perm_type = { fg = "white" }
+# perm_read = { fg = "white" }
+# perm_write = { fg = "white" }
+# perm_exec = { fg = "white" }
+# perm_sep = { fg = "white" }
+
+# progress_label = { fg = "white" }
+# progress_normal = { fg = "white" }
+# progress_error = { fg = "lightred" }
+
+# [which]
+# mask = { fg = "white" }
+# cand = { fg = "white", bold = true }
+# rest = { fg = "white", dim = true }
+# desc = { fg = "white" }
+# separator = " -> "
+# separator_style = { fg = "white" }
+
+# [confirm]
+# border = { fg = "white" }
+# title = { fg = "white", bold = true }
+# content = { fg = "white" }
+# list = { fg = "white" }
+# btn_yes = { fg = "white", bg = "darkgray" }
+# btn_no = { fg = "white" }
+# btn_labels = ["Yes", "No"]
+
+# [icon]
+# dirs = [
+#     { name = "*", text = "📁", fg = "white" }
+# ]
+# exts = [
+#     { name = "*", text = "📄", fg = "white" }
+# ]
 
 
