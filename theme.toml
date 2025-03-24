@@ -33,6 +33,10 @@ count_cut = { fg = "#2f1c21" }
 border_style = { fg = "#222222" }
 border_symbol = "│"
 
+[input]
+border = { fg = "#888888", bg = "black" }
+title = { fg = "#525252"}
+
 # [mode]
 # normal_main = { fg = "white" }
 # normal_alt = { fg = "white", dim = true }
