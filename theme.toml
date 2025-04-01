@@ -29,11 +29,11 @@ count_selected = { fg = "#292929" }
 count_copied = { fg = "#2c3727" }
 count_cut = { fg = "#2f1c21" }
 
-border_style = { fg = "#222222" }
+border_style = { fg = "#242424" }
 border_symbol = "│"
 
 [input]
-border = { fg = "#888888", bg = "black" }
+border = { fg = "#888888", bg = "#202020" }
 title = { fg = "#525252"}
 
 # [mode]
