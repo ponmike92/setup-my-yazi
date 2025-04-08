@@ -123,11 +123,12 @@ keymap = [
 	# Goto
 	{ on = [ "g", "h" ],       run = "cd ~" },
 	{ on = [ "g", "c" ],       run = "cd ~/.config" },
-	{ on = [ "g", "l" ],       run = "cd ~/Downloads" },
 	{ on = [ "g", "d" ],       run = "cd ~/Documents" },
-	{ on = [ "g", "m" ],       run = "cd ~/Movies" },
 	{ on = [ "g", "p" ],       run = "cd ~/Documents/_proj" },
+	{ on = [ "g", "m" ],       run = "cd ~/Movies" },
+	{ on = [ "g", "s" ],       run = "cd ~/Movies/screen_studio_projects" },
 	{ on = [ "g", "o" ],       run = "cd ~/Desktop" },
+	{ on = [ "g", "l" ],       run = "cd ~/Downloads" },
 
 	# Tabs
 	{ on = "t", run = "tab_create --current" },
