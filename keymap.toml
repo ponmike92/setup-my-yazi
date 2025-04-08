@@ -36,11 +36,10 @@ keymap = [
 	{ on = "<Right>", run = "enter" },
 
 	# Hop
-	{ on = "<Up>",    run = "arrow -1", desc = "Move cursor up" },
-	{ on = "<Down>",  run = "arrow 1",  desc = "Move cursor down" },
-
-	{ on = [ "g", "g" ], run = "arrow -99999999", desc = "Move cursor to the top" },
-	{ on = "G",          run = "arrow 99999999",  desc = "Move cursor to the bottom" },
+	{ on = "<Up>",       run = "arrow -1" },
+	{ on = "<Down>",     run = "arrow 1" },
+	{ on = [ "g", "g" ], run = "arrow -99999999" },
+	{ on = "G",          run = "arrow 99999999" },
 
 	# Rename
 	{ on = "<Enter>",   run = "rename --cursor=before_ext" },
