@@ -135,8 +135,11 @@ keymap = [
 	# Goto
 	{ on = [ "g", "h" ],       run = "cd ~" },
 	{ on = [ "g", "c" ],       run = "cd ~/.config" },
-	{ on = [ "g", "d" ],       run = "cd ~/Downloads" },
-	{ on = [ "g", "<Space>" ], run = "cd --interactive" },
+	{ on = [ "g", "l" ],       run = "cd ~/Downloads" },
+	{ on = [ "g", "d" ],       run = "cd ~/Documents" },
+	{ on = [ "g", "m" ],       run = "cd ~/Movies" },
+	{ on = [ "g", "p" ],       run = "cd ~/Documents/_proj" },
+	{ on = [ "g", "o" ],       run = "cd ~/Desktop" },
 
 	# Tabs
 	{ on = "t", run = "tab_create --current", desc = "Create a new tab with CWD" },
