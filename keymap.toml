@@ -116,8 +116,8 @@ keymap = [
 	{ on = [ "s", "A" ], run = "sort alphabetical --reverse" },
 	{ on = [ "s", "n" ], run = "sort natural --reverse=no" },
 	{ on = [ "s", "N" ], run = "sort natural --reverse" },
-	{ on = [ "s", "s" ], run = [ "sort size --reverse=no", "linemode size" ] },
-	{ on = [ "s", "S" ], run = [ "sort size --reverse", "linemode size" ] },
+	{ on = [ "s", "S" ], run = [ "sort size --reverse=no", "linemode size" ] },
+	{ on = [ "s", "s" ], run = [ "sort size --reverse", "linemode size" ] },
 	{ on = [ "s", "r" ], run = "sort random --reverse=no" },
 
 	# Goto
