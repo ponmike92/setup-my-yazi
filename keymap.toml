@@ -43,11 +43,6 @@ keymap = [
 	{ on = "<Up>",    run = "arrow -1", desc = "Move cursor up" },
 	{ on = "<Down>",  run = "arrow 1",  desc = "Move cursor down" },
 
-	{ on = "<C-u>", run = "arrow -50%",  desc = "Move cursor up half page" },
-	{ on = "<C-d>", run = "arrow 50%",   desc = "Move cursor down half page" },
-	{ on = "<C-b>", run = "arrow -100%", desc = "Move cursor up one page" },
-	{ on = "<C-f>", run = "arrow 100%",  desc = "Move cursor down one page" },
-
 	{ on = [ "g", "g" ], run = "arrow -99999999", desc = "Move cursor to the top" },
 	{ on = "G",          run = "arrow 99999999",  desc = "Move cursor to the bottom" },
 
@@ -68,15 +63,13 @@ keymap = [
 	{ on = "E",         run = "shell --block --interactive" },
 
 	# Select
+	{ on = "<C-a>",     run = "toggle_all --state=true" },
+	{ on = "<C-r>",     run = "toggle_all --state=none" },
+	{ on = "<Space>",   run = [ "toggle --state=none"] },
 	{ on = "y",         run = "yank" },
 	{ on = "x",         run = "yank --cut" },
 	{ on = "Y",         run = "unyank" },
 	{ on = "X",         run = "unyank" },
-	{ on = "<Space>",   run = [ "toggle --state=none"],             desc = "Toggle the current selection state" },
-	{ on = "v",         run = "visual_mode",                        desc = "Enter visual mode (selection mode)" },
-	{ on = "V",         run = "visual_mode --unset",                desc = "Enter visual mode (unset mode)" },
-	{ on = "<C-a>",     run = "toggle_all --state=true",            desc = "Select all files" },
-	{ on = "<C-r>",     run = "toggle_all --state=none",            desc = "Inverse selection of all files" },
 
 	# Paste
 	{ on = "p",         run = "paste" },
