@@ -80,7 +80,8 @@ keymap = [
 	{ on = "Щ", run = "open --interactive" },
 
 	# Copy
-	{ on = [ "c", "c" ], run = "copy path" },
+	{ on = [ "c", "c" ], run = "shell --confirm 'cat \"$0\" | pbcopy'" },
+	{ on = [ "c", "p" ], run = "copy path" },
 	{ on = [ "c", "d" ], run = "copy dirname" },
 	{ on = [ "c", "f" ], run = "copy filename" },
 	{ on = [ "c", "n" ], run = "copy name_without_ext" },
