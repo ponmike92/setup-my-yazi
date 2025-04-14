@@ -81,10 +81,15 @@ keymap = [
 
 	# Copy
 	{ on = [ "c", "c" ], run = "shell --confirm 'cat \"$0\" | pbcopy'" },
+	{ on = [ "с", "с" ], run = "shell --confirm 'cat \"$0\" | pbcopy'" },
 	{ on = [ "c", "p" ], run = "copy path" },
+	{ on = [ "с", "з" ], run = "copy path" },
 	{ on = [ "c", "d" ], run = "copy dirname" },
+	{ on = [ "с", "в" ], run = "copy dirname" },
 	{ on = [ "c", "f" ], run = "copy filename" },
+	{ on = [ "с", "а" ], run = "copy filename" },
 	{ on = [ "c", "n" ], run = "copy name_without_ext" },
+	{ on = [ "с", "т" ], run = "copy name_without_ext" },
 
 	# Filter
 	{ on = "F", run = "filter --smart"},
