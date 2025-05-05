@@ -10,27 +10,27 @@ rules = [
 ]
 
 [manager]
-cwd = { fg = "#6A9FB5"}
-hovered = { fg = "white"}
+cwd             = { fg = "#6A9FB5"}
+hovered         = { fg = "white"}
 preview_hovered = { fg = "#525252"}
 
 marker_selected = { fg = "#d1d1d1", bg = "#d1d1d1" }
-marker_copied = { fg = "#90b181", bg = "#90b181" }
-marker_cut = { fg = "#e99bae", bg = "#e99bae" }
-marker_marked = { fg = "#d1d1d1", bg = "#d1d1d1" }
+marker_copied   = { fg = "#90b181", bg = "#90b181" }
+marker_cut      = { fg = "#e99bae", bg = "#e99bae" }
+marker_marked   = { fg = "#d1d1d1", bg = "#d1d1d1" }
 
-# find_keyword = { fg = "white", underline = true }
+find_keyword    = { fg = "#cccccc", bold = true }
 # find_position = { fg = "white", italic = true }
 
-tab_active = { fg = "#d1d1d1" }
-tab_inactive = { fg = "#282828" }
+tab_active      = { fg = "#d1d1d1" }
+tab_inactive    = { fg = "#282828" }
 
-count_selected = { fg = "#292929" }
-count_copied = { fg = "#2c3727" }
-count_cut = { fg = "#2f1c21" }
+count_selected  = { fg = "#292929" }
+count_copied    = { fg = "#2c3727" }
+count_cut       = { fg = "#2f1c21" }
 
-border_style = { fg = "#242424" }
-border_symbol = "│"
+border_style    = { fg = "#242424" }
+border_symbol   = "│"
 
 [input]
 border = { fg = "#888888", bg = "#202020" }
